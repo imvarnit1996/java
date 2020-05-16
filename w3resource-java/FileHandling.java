@@ -22,11 +22,11 @@ public class FileHandling {
 
 		compareFiles(bufferedReader1, bufferedReader2);
 		miscellaneous(file);
-		// getExtension(file);
+		getExtension(file);
 		listOfExtensions(file);
-		// commandLineArguments();
+		commandLineArguments();
 		getFileSize(file);
-		// byteArrayReadWrite();
+		byteArrayReadWrite();
 		lineByline(bufferedReader1);
 		lineBylineArray(bufferedReader1);
 		longestWordInFile(bufferedReader1);
