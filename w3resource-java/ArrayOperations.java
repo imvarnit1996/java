@@ -7,8 +7,7 @@ public class ArrayOperations {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		// int[] number_array_1 = { 10789, 2035, 1899, 1456, 2013, 1458, 2458,
-		// 1254, 1472, 2365, 1456, 2165, 1457, 2456 };
+		// int[] number_array_1 = { 10789, 2035, 1899, 1456, 2013, 1458, 2458,1254, 1472, 2365, 1456, 2165, 1457, 2456 };
 
 		int[] number_array_1 = { 1, 2, 3, 4, 5, 6 };
 		int[] number_array_2 = { 4, 5, 6, 7, 8, 9 };
@@ -21,29 +20,29 @@ public class ArrayOperations {
 
 		String[] string_array = { "Varnit", "Aditya", "Deepak", "Varnit", "rohilla", "rohilla" };
 
-		// sortingArrays(number_array_1, string_array);
-		// operationsOnElements(number_array_1);
-		// patternGrid();
-		// removeElement(number_array_1, scanner);
-		// maximumAndMinimum(number_array_1);
-		// reversingTheArray(number_array_1);
-		// duplicacy(number_array_1, string_array);
-		// compare_arrays(number_array_1, number_array_2);
-		// insertAtIndex(number_array_1, scanner);
-		// searchInarrays(number_array_1, string_array, scanner);
-		// secondLargest(number_array_1);
-		// secondSmallest(number_array_1);
-		// addingTwoMatrices(matrix1, matrix2);
-		// pairsOfSum(number_array_2);
-		// equalityOfTwoArrays(number_array_1, number_array_2);
-		// evenOrOdd(number_array_1);
-		// conversion of array to array list and vice versa
-		// ArrayList<Object> array_to_arraylist = new
-		// ArrayList<Object>(Arrays.asList(number_array));
-		// System.out.println(array_to_arraylist);
-		// array_to_arraylist.toArray();
+		sortingArrays(number_array_1, string_array);
+		operationsOnElements(number_array_1);
+		patternGrid();
+		removeElement(number_array_1, scanner);
+		maximumAndMinimum(number_array_1);
+		reversingTheArray(number_array_1);
+		duplicacy(number_array_1, string_array);
+		compare_arrays(number_array_1, number_array_2);
+		insertAtIndex(number_array_1, scanner);
+		searchInarrays(number_array_1, string_array, scanner);
+		secondLargest(number_array_1);
+		secondSmallest(number_array_1);
+		addingTwoMatrices(matrix1, matrix2);
+		pairsOfSum(number_array_2);
+		equalityOfTwoArrays(number_array_1, number_array_2);
+		evenOrOdd(number_array_1);
+		conversion of array to array list and vice versa
+		ArrayList<Object> array_to_arraylist = new
+		ArrayList<Object>(Arrays.asList(number_array));
+		System.out.println(array_to_arraylist);
+		array_to_arraylist.toArray();
 		relativeOrderOfArrays(number_array_3);
-		// threeSortedArrays(number_array_1, number_array_2, number_array_3);
+		threeSortedArrays(number_array_1, number_array_2, number_array_3);
 
 		scanner.close();
 	}
