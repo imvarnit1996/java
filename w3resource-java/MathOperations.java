@@ -375,7 +375,6 @@ public class MathOpertaions {
 			}
 		}
 		return val;
-
 	}
 
 }
