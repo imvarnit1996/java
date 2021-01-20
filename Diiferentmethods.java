@@ -1,26 +1,3 @@
-  public int getMaximumGenerated(int n) {
-        
-        int[] nums = new int[n + 1];
-        nums[0] = 0;
-        if (n == 0)
-            return 0;
-        nums[1] = 1;
-        if (n == 1)
-            return 1;
-        if(n==2) return 1;
-        int j;
-        for (int i = 1; i <= nums.length; i++) {
-            j = 2 * i;
-            if (j >= 2 && j <= n) {
-                nums[j] = nums[i];
-                nums[j + 1] = nums[i] + nums[i + 1];
-            } else {
-                break;
-            }
-        }
-        
-        return nums[n];
-    }
 
 
 
